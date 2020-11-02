@@ -42,8 +42,6 @@ export default class Label extends PureComponent {
       x1: PropTypes.number,
       y1: PropTypes.number,
     }),
-
-    style: Animated.Text.propTypes.style,
     label: PropTypes.string,
   };
 
